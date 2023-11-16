@@ -36,7 +36,7 @@ int main()
 
     body->CreateFixture(&fixture_def);
 
-    for (int32 i = 0; i < 60; ++i)
+    for (int32 i = 0; i < 3000; ++i)
     {
         constexpr float time_step = 0.0001f;
         constexpr int32 velocity_iterations = 6;
